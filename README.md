@@ -2,10 +2,6 @@
 
 Web Backend Developer
 
-## 🌱 my skills
-
-[![My Skills](https://skillicons.dev/icons?i=java,js,ts,c,cpp,py,html,css,md,maven,gradle,spring,nodejs,vue,aws,docker,mysql,postgres,idea,vscode,visualstudio,neovim,git,github,gitlab,ae,pr,ps&perline=8)](https://skillicons.dev)
-
 ## 📈 Status
 
 [![Anurag's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=semba-yui&count_private=true&show_icons=true&theme=dracula#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
