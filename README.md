@@ -1,4 +1,19 @@
-### Hi there 👋
+## About Semba Yui
+
+Web Backend Developer
+
+## 🌱 my skills
+
+[![My Skills](https://skillicons.dev/icons?i=java,js,ts,c,cpp,py,html,css,md,maven,gradle,spring,nodejs,vue,aws,docker,mysql,postgres,idea,vscode,visualstudio,neovim,git,github,gitlab,ae,pr,ps&perline=8)](https://skillicons.dev)
+
+## 📈 Status
+
+[![Anurag's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=semba-yui&count_private=true&show_icons=true&theme=dracula#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
+[![Anurag's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=semba-yui&count_private=true&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=semba-yui&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=semba-yui&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
 <!--
 **semba-yui/semba-yui** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
