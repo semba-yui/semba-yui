@@ -1,4 +1,4 @@
-## About Semba Yui
+## About Yui
 
 Web Backend Developer
 
