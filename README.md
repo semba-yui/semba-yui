@@ -1,6 +1,6 @@
-## About Yui
+## About Semba Ryuichiro
 
-Web Backend Developer
+Web Developer
 
 ## 📈 Status
 
