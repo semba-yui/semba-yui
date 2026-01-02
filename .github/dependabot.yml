@@ -1,0 +1,50 @@
+version: 2
+updates:
+  # npm (pnpm) パッケージ
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      timezone: Asia/Tokyo
+    cooldown:
+      default-days: 7
+    commit-message:
+      prefix: "chore(deps)"
+    labels:
+      - dependencies
+      - npm
+    open-pull-requests-limit: 10
+    groups:
+      lint-tools:
+        patterns:
+          - "@biomejs/*"
+          - "@commitlint/*"
+          - "remark*"
+          - "@textlint*"
+          - "textlint*"
+          - "@secretlint/*"
+          - "secretlint"
+      lefthook:
+        patterns:
+          - "lefthook"
+
+  # GitHub Actions
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      timezone: Asia/Tokyo
+    cooldown:
+      default-days: 7
+    commit-message:
+      prefix: "ci(deps)"
+    labels:
+      - dependencies
+      - github-actions
+    open-pull-requests-limit: 5
+    groups:
+      actions:
+        patterns:
+          - "*"

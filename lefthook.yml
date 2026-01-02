@@ -1,0 +1,46 @@
+pre-commit:
+  commands:
+    format:
+      glob: "*.{js,ts,jsx,tsx,json}"
+      run: pnpm biome format --write {staged_files}
+      stage_fixed: true
+    remark:
+      glob: "*.md"
+      run: pnpm remark {staged_files} --frail --output --silently-ignore
+      stage_fixed: true
+    textlint:
+      glob: "*.md"
+      run: pnpm textlint --fix {staged_files}
+      stage_fixed: true
+
+commit-msg:
+  commands:
+    commitlint:
+      run: pnpm commitlint --edit {1}
+
+pre-push:
+  parallel: true
+  commands:
+    biome-lint:
+      glob: "*.{js,ts,jsx,tsx,json}"
+      run: pnpm biome check .
+    yaml-lint:
+      glob: "*.{yml,yaml}"
+      run: mise exec -- yamllint .
+    actionlint:
+      glob: ".github/workflows/*.{yml,yaml}"
+      run: mise exec -- actionlint
+    ghalint:
+      glob: ".github/workflows/*.{yml,yaml}"
+      run: mise exec -- ghalint run
+    zizmor:
+      glob: ".github/workflows/*.{yml,yaml}"
+      run: mise exec -- zizmor .
+    remark:
+      glob: "*.md"
+      run: pnpm remark . --frail
+    textlint:
+      glob: "*.md"
+      run: pnpm textlint .
+    secretlint:
+      run: pnpm secretlint .

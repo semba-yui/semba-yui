@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "anthropic.claude-code",
+    "openai.chatgpt",
+    "github.copilot",
+    "github.vscode-github-actions",
+    "unifiedjs.vscode-remark"
+  ]
+}

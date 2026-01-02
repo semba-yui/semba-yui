@@ -1,0 +1,27 @@
+documentation:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "**/*.md"
+          - "docs/**/*"
+
+ci:
+  - changed-files:
+      - any-glob-to-any-file: ".github/workflows/**/*"
+
+config:
+  - changed-files:
+      - any-glob-to-any-file:
+          - ".github/**/*"
+          - "!.github/workflows/**/*"
+          - "biome.json"
+          - ".remarkrc"
+          - ".textlintrc.json"
+          - "commitlint.config.mjs"
+          - "lefthook.yml"
+
+dependencies:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "package.json"
+          - "pnpm-lock.yaml"
+          - "mise.toml"
